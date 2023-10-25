@@ -9,13 +9,13 @@ on:
 
 jobs:
   package:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js 14.x
-        uses: actions/setup-node@v1
+      - name: Use Node.js latest
+        uses: actions/setup-node@v3
         with:
-          node-version: latest
+          node-version: 'lts'
 
       - run: echo "//npm.pkg.github.com/:_authToken=${{secrets.GITHUB_TOKEN}}" >> ~/.npmrc
       - run: npm install
