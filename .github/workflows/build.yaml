@@ -2,7 +2,10 @@ name: Node.js CI
 
 # only trigger on pull request closed events
 on:
-  pull_request:
+  push:
+    branches:
+      - main
+      - feature/SLNT-1_Initialize_extending_airbnb_config
     types: [ closed ]
 
 jobs:
