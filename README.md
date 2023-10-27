@@ -1,24 +1,23 @@
 
 ![Supaapps Logo](https://supaapps.com/wp-content/uploads/logo.png)
 
-## Supaapps ESLint Config
+## ESLint Config Supaapps
 
+Starting on lintting for each application can be a hustle, getting into a lintting pattern to follow then starting the poilerplate every time is wasting a time. `eslint-config-supaapps` aims to simplify this. 
 
-Starting on lintting for each application can be a hustle, getting into a lintting pattern to follow then starting the poilerplate every time is wasting a time. `supa-eslint-config` aims to simplify this. 
-
-`supa-eslint-config` is an easy-to-use package developed by Supaapps GmbH to start a solid eslint approach for linting app code under one of the most of standard & common lintting approaches are used. Although intended for internal use, we've made this package available under the MIT license. Feel free to integrate it into your projects.
+`eslint-config-supaapps` is an easy-to-use package developed by Supaapps GmbH to start a solid eslint approach for linting app code under one of the most of standard & common lintting approaches are used. Although intended for internal use, we've made this package available under the MIT license. Feel free to integrate it into your projects.
 
 
 
 ## Installation
 
 ```bash
-npm install supa-eslint-config
+npm install eslint-config-supaapps
 
 ```
 Or using Yarn:
 ```bash
-yarn add supa-eslint-config
+yarn add eslint-config-supaapps
 
 ```
 
@@ -31,7 +30,7 @@ Below is a clarification and how to use it within your package.
 
 ```json
 {
-  "extends": "supa-eslint-config"
+  "extends": "eslint-config-supaapps"
 }
 ```
 

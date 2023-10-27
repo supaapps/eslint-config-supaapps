@@ -1,5 +1,5 @@
 {
-  "name": "supa-eslint-config",
+  "name": "eslint-config-supaapps",
   "version": "1.0.0",
   "description": "Supaapps GmbH ES-Lint starter config",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supaapps/supa-eslint-config.git"
+    "url": "git+https://github.com/supaapps/eslint-config-supaapps"
   },
   "keywords": [
     "eslint",
@@ -18,11 +18,11 @@
     "typescript"
   ],
   "author": "Supaapps GmbH",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/supaapps/supa-eslint-config/issues"
+    "url": "https://github.com/supaapps/eslint-config-supaapps/issues"
   },
-  "homepage": "https://github.com/supaapps/supa-eslint-config#readme",
+  "homepage": "https://github.com/supaapps/eslint-config-supaapps#readme",
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
     "typescript": "5.1.6",
