@@ -1,0 +1,47 @@
+{
+  "name": "eslint-config-supaapps",
+  "version": "1.0.0",
+  "description": "Supaapps GmbH ES-Lint starter config",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "lint": "eslint --fix . && prettier --write .",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supaapps/eslint-config-supaapps.git"
+  },
+  "keywords": [
+    "eslint",
+    "airbnb",
+    "typescript"
+  ],
+  "author": "Supaapps GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supaapps/eslint-config-supaapps/issues"
+  },
+  "homepage": "https://github.com/supaapps/eslint-config-supaapps#readme",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "typescript": "5.1.6",
+    "next": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.8",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-next": "^13.4.17",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^5.0.0-canary-7118f5dd7-20230705",
+    "prettier": "^3.0.2"
+  }
+}
