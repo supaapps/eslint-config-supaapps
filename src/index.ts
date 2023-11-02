@@ -12,7 +12,8 @@ module.exports = {
     "plugin:@typescript-eslint/eslint-recommended",
     "next/core-web-vitals",
   ],
-  plugins: ["react", "prettier"],
+  plugins: ["prettier"],
+  overrides: [],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "./tsconfig.eslint.json",
@@ -52,5 +53,4 @@ module.exports = {
     "react-hooks/exhaustive-deps": 0,
     "no-underscore-dangle": 0
   },
-  overrides: [],
 };

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-supaapps",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Supaapps GmbH ES-Lint starter config",
   "main": "index.js",
   "scripts": {
