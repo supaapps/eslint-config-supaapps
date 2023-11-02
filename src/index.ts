@@ -1,20 +1,56 @@
 module.exports = {
   root: true,
+  env: {
+    "browser": true,
+    "es2021": true
+  },
   extends: [
     "eslint:recommended",
     "airbnb-typescript/base",
     "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
+    "next/core-web-vitals",
   ],
   plugins: ["react", "prettier"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "./tsconfig.eslint.json",
+    ecmaVersion: "latest",
+    sourceType: "module",
+    ecmaFeatures: {
+      jsx: true,
+      tsx: true
+    }
   },
   rules: {
-    "no-undef": "off",
-    "import/extensions": "off",
+    "react/button-has-type": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/alt-text": 0,
+    "@typescript-eslint/member-delimiter-style": [
+      "error",
+      {
+        "multiline": {
+          "delimiter": "comma",
+          "requireLast": true
+        },
+        "singleline": {
+          "delimiter": "comma",
+          "requireLast": true
+        },
+        "overrides": {
+          "interface": {
+            "multiline": {
+              "delimiter": "semi",
+              "requireLast": true
+            }
+          }
+        }
+      }
+    ],
+    "import/no-extraneous-dependencies": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "no-underscore-dangle": 0
   },
+  overrides: [],
 };

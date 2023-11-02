@@ -30,7 +30,7 @@ Below is a clarification and how to use it within your package.
 
 ```json
 {
-  "extends": "eslint-config-supaapps"
+  "extends": "supaapps"
 }
 ```
 
