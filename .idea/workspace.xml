@@ -13,4 +13,9 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
 </project>
