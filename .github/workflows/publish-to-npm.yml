@@ -2,10 +2,8 @@ name: Publish to NPM
 
 on:
   push:
-    branches:
-      - feature/SLNT-3_Publish_pipeline_not_working
-#    tags:
-#      - "v*"
+    tags:
+      - "v*"
 
 jobs:
   build:
@@ -27,7 +25,7 @@ jobs:
       - name: Build
         run: npm run build
 
-#      - name: Publish to npm
-#        run: npm publish
-#        env:
-#          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Publish to npm
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
