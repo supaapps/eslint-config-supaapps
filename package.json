@@ -1,8 +1,9 @@
 {
   "name": "eslint-config-supaapps",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Supaapps GmbH ES-Lint starter config",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "npm run test",
     "lint": "eslint --fix . && prettier --write .",
@@ -23,19 +24,30 @@
     "url": "https://github.com/supaapps/eslint-config-supaapps/issues"
   },
   "homepage": "https://github.com/supaapps/eslint-config-supaapps#readme",
-  "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0",
-    "typescript": "5.1.6",
-    "next": "^13.0.0"
-  },
   "devDependencies": {
-    "@types/node": "^20.8.8",
+    "@next/eslint-plugin-next": "^13.4.18",
+    "@types/node": "^20.8.10",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^6.4.0",
-    "@next/eslint-plugin-next": "^13.4.18",
     "eslint": "^8.47.0",
-    "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-next": "^13.4.17",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.0.2"
+  },
+  "peerDependencies": {
+    "@next/eslint-plugin-next": "^13.4.18",
+    "@types/node": "^20.8.10",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-next": "^13.4.17",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.28.0",
