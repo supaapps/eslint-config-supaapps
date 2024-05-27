@@ -7,10 +7,9 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "airbnb-typescript/base",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "next/core-web-vitals",
+    "prettier",
   ],
   plugins: ["prettier"],
   overrides: [],
