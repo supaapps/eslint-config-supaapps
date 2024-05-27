@@ -12,33 +12,27 @@ Starting on lintting for each application can be a hustle, getting into a lintti
 ## Installation
 
 ```bash
-npm install eslint-config-supaapps
-```
-Or using Yarn:
-```bash
-yarn add eslint-config-supaapps
-```
+npm install --save-dev eslint-config-supaapps
+# install peer dependencies
 
-### Adding Dependancies
+npm install --save-dev @next/eslint-plugin-next \
+  @types/node \
+  @typescript-eslint/eslint-plugin \
+  @typescript-eslint/parser \
+  eslint\
+  eslint-config-airbnb-base \
+  eslint-config-airbnb-typescript\
+  eslint-config-next\
+  eslint-config-next \
+  eslint-config-prettier \
+  eslint-plugin-import \
+  eslint-plugin-jsx-a11y \
+  eslint-plugin-prettier \
+  eslint-plugin-react \
+  prettier
 
-```bash
-npx install-peerdeps --dev eslint-config-supaapps
-```
-Or using Yarn:
-```bash
-# Getting peer deps info
-yarn info eslint-config-supaapps peerDependencies
 
-# You will see info like this in terminal:
-{
-  "eslint": "^8.47.0",
-  "eslint-plugin-import": "^2.28.0",
-  "prettier": "^3.0.2",
-  # The rest of peer deps...
-}
 
-# Installing these peer deps
-yarn add eslint eslint-plugin-import prettier --dev
 ```
 
 ### Adding Formatter configuration
